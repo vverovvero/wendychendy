@@ -56,3 +56,15 @@ function toggleGallery() {
         document.getElementById("gallery_button").innerHTML = "SHOW MORE";
     }
 }
+
+// Used to toggle demo reel section; show more or show less
+function toggleDemoReel() {
+    var x = document.getElementById("reel_row2");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className = x.className.replace(" w3-hide", " w3-show");
+        document.getElementById("reel_button").innerHTML = "SHOW LESS";
+    } else {
+        x.className = x.className.replace(" w3-show", " w3-hide");
+        document.getElementById("reel_button").innerHTML = "SHOW MORE";
+    }
+}
