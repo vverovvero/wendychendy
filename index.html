@@ -8,10 +8,12 @@
     <link rel="icon" href="files/icons/piggy_black.png">
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Sue+Ellen+Francisco' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -58,29 +60,32 @@
   <div class="w3-content w3-container w3-padding-64" id="about">
     <h3 class="w3-center">ABOUT ME</h3>
     <p class="w3-center">
-      <em>Senior Software Engineer | Technical Artist <br> Seeking opportunities in LookDev </em>      
+      <em>Senior Software Engineer | Graphics & Pipeline | Technical Director</em>      
     </p>
     <div class="w3-row">
       <div class="w3-col m6  w3-padding-large">
-        <img src="files/images/pixarProfileCropped.JPG" class="w3-round w3-image" alt="Taken in 2023 at Pixar" width="500" height="333">
+        <img loading="lazy" decoding="async" src="files/images/pixarProfileCropped.JPG" class="w3-round w3-image" alt="Taken in 2023 at Pixar" width="500" height="333">
       </div>
       <div class="w3-col m6 w3-padding-medium">
         <p>
-        Hi, I’m Wendy!  I've worked at Pixar for eight years in both roles as a technical artist and software engineer.  As an artist, I worked in our Character Shading team, and as an engineer, I've worked on our in-house USD-based shading tools and pipeline.  I have artist credits on <em>Inside Out 2</em>.  My engineering credits span <em>Hoppers</em>, <em>Elio</em>, <em>Elemental</em>, <em>Lightyear</em>, <em>Turning Red</em>, <em>Luca</em>, <em>Soul</em>, <em>Onward</em>, and <em>Toy Story 4</em>.
+        Hi, I'm Wendy! I'm a <b>Senior Software Engineer</b> at <b>Pixar Animation Studios</b>
+        with nine years of experience building production graphics software and collaborating 
+        directly with artists in feature animation. 
         </p>
         <p>
-        I graduated from Yale University with a B.S. in Computer Science in 2017, and I previously interned at Walt Disney Animation Studios (Art & Production intern) and at Blue Sky Studios (Production Engineering intern).
+        I currently work as a <b>Global Technology Technical Director</b>, 
+        where I continue to bridge engineering and artistic workflows while working 
+        directly on the production of <em> Incredibles 3!</em>
         </p>
         <p>
-        Outside of work, I'm passionate about drawing, painting, and all forms of visual storytelling and problem-solving.
+        I earned a <b>B.S.</b> in <b>Computer Science</b> from <b>Yale University</b>, 
+        and I previously interned at <b>Walt Disney Animation Studios</b> (Art & Production intern) and 
+        at <b>Blue Sky Studios</b> (Production Engineering intern).
         </p>
         <p>
-        I am seeking roles where I can combine my full range of technical and artistic skills.  Let’s make something great together!
+        I love drawing and painting, and I'm most excited by opportunities that 
+        bring out the best of both engineering and art.  Let’s make something great together!
         </p>
-        <!-- Hide this text on small devices -->
-<!--         <p class="w3-hide-small">
-        
-        </p> -->
       </div>
     </div>
   </div>
@@ -97,7 +102,7 @@
     <h3 class="w3-center">REEL</h3>
     
     <!-- Current Reel -->
-    <p class="w3-center"><em>Fall 2025 Demo Reel<br>(Please contact me for password)</em></p>
+    <p class="w3-center"><em>Fall 2025 Demo Reel<br>(Please see resume for password)</em></p>
     <div class="w3-center w3-row">
       <!-- <div class='embed-container'><iframe src="https://player.vimeo.com/video/916204452?h=5c557744f2" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div> -->
       <div class='embed-container'><iframe title="vimeo-player" src="https://player.vimeo.com/video/1139509074?h=a36a1f2f4d" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe></div>
@@ -122,17 +127,17 @@
     <div class="w3-row-padding w3-center">
       <!-- Thumb 0: Digital Painting -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_digital.JPG" style="width:100%" onclick="onClick('modal00')" class="w3-hover-opacity thumbnail_img" alt="Digital Painting">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_digital.JPG" style="width:100%" onclick="onClick('modal00')" class="w3-hover-opacity thumbnail_img" alt="Digital Painting">
         <div class="w3-display-middle w3-large thumbnail_text">DIGITAL PAINTING</div>
       </div>
       <!-- Thumb 1: Disney -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_disney.png" style="width:100%" onclick="onClick('modal01')" class="w3-hover-opacity thumbnail_img" alt="Disney">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_disney.png" style="width:100%" onclick="onClick('modal01')" class="w3-hover-opacity thumbnail_img" alt="Disney">
         <div class="w3-display-middle w3-large thumbnail_text">DISNEY</div>
       </div>
       <!-- Thumb 2: Blue Sky-->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_bluesky.png" style="width:100%" onclick="onClick('modal02')" class="w3-hover-opacity thumbnail_img" alt="Blue Sky">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_bluesky.png" style="width:100%" onclick="onClick('modal02')" class="w3-hover-opacity thumbnail_img" alt="Blue Sky">
         <div class="w3-display-middle w3-large thumbnail_text">BLUE SKY</div>
       </div>
     </div>
@@ -140,17 +145,17 @@
     <div class="w3-row-padding w3-center w3-section">
       <!-- Thumb 3: Where I'll Go and Looking Under -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_animation.png" style="width:100%" onclick="onClick('modal03')" class="w3-hover-opacity thumbnail_img" alt="Where I'll Go">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_animation.png" style="width:100%" onclick="onClick('modal03')" class="w3-hover-opacity thumbnail_img" alt="Where I'll Go">
         <div class="w3-display-middle w3-large thumbnail_text">WHERE I'LL GO</div>
       </div>
       <!-- Thumb 4: Don't Blink -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_db.png" style="width:100%" onclick="onClick('modal04')" class="w3-hover-opacity thumbnail_img" alt="Don't Blink">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_db.png" style="width:100%" onclick="onClick('modal04')" class="w3-hover-opacity thumbnail_img" alt="Don't Blink">
         <div class="w3-display-middle w3-large thumbnail_text">DON'T BLINK</div>
       </div>
       <!-- Thumb 5: mCertiKos -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_os.png" style="width:100%" onclick="onClick('modal05')" class="w3-hover-opacity thumbnail_img" alt="OS video mode">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_os.png" style="width:100%" onclick="onClick('modal05')" class="w3-hover-opacity thumbnail_img" alt="OS video mode">
         <div class="w3-display-middle w3-large thumbnail_text"><br>VIDEO<br>MODE<br>MCERTIKOS</div>
       </div>
     </div>
@@ -158,17 +163,17 @@
     <div class="w3-row-padding w3-center w3-section">
       <!-- Thumb 6: Ray Tracing and Path Tracing -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_graphics.png" style="width:100%" onclick="onClick('modal06')" class="w3-hover-opacity thumbnail_img" alt="Rendering">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_graphics.png" style="width:100%" onclick="onClick('modal06')" class="w3-hover-opacity thumbnail_img" alt="Rendering">
         <div class="w3-display-middle w3-large thumbnail_text">RENDERING</div>
       </div>
       <!-- Thumb 7: Painting -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_painting.png" style="width:100%" onclick="onClick('modal07')" class="w3-hover-opacity thumbnail_img" alt="Painting">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_painting.png" style="width:100%" onclick="onClick('modal07')" class="w3-hover-opacity thumbnail_img" alt="Painting">
         <div class="w3-display-middle w3-large thumbnail_text">TRADITIONAL PAINTING</div>
       </div>
       <!-- Thumb 08: Sketches -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_sketches.JPG" style="width:100%" onclick="onClick('modal08')" class="w3-hover-opacity thumbnail_img" alt="Sketches">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_sketches.JPG" style="width:100%" onclick="onClick('modal08')" class="w3-hover-opacity thumbnail_img" alt="Sketches">
         <div class="w3-display-middle w3-large thumbnail_text">SKETCHES</div>
       </div>
       
@@ -177,7 +182,7 @@
     <div class="w3-row-padding w3-center w3-section w3-hide" id="gallery_row3">
       <!-- Thumb 9: Distributed Graph -->
       <div class="w3-col m4 w3-display-container">
-        <img src="files/workThumbnails/tb_graph.png" style="width:100%" onclick="onClick('modal09')" class="w3-hover-opacity thumbnail_img" alt="Distributed Graph">
+        <img loading="lazy" decoding="async" src="files/workThumbnails/tb_graph.png" style="width:100%" onclick="onClick('modal09')" class="w3-hover-opacity thumbnail_img" alt="Distributed Graph">
         <div class="w3-display-middle w3-large thumbnail_text">DISTRIBUTED GRAPH</div>
       </div>
     </div>
@@ -205,63 +210,63 @@
         <div class="w3-row w3-gallery" style="margin-bottom:128px">
           <div class="w3-third">
             <!-- digital_shelley -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/15.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/12.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/09.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/06.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/02.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/15.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/12.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/09.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/06.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/02.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
             <!-- digital_color -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/33.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/24.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/21.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/18.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/15.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/12.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/09.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/33.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/24.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/21.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/18.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/15.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/12.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/09.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
             <!-- digital_colorLight -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/12.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/09.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/10.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/12.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/09.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/10.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
           </div>
 
           <div class="w3-third">
             <!-- digital_shelley -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/14.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/11.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/08.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/05.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/03.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/14.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/11.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/08.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/05.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/03.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
             <!-- digital_color -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/29.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/23.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/20.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/17.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/14.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/11.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/08.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/29.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/23.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/20.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/17.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/14.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/11.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/08.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
             <!-- digital_colorLight -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/05.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/05.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
             <!-- digital_bw -->
           </div>
 
           <div class="w3-third">
             <!-- digital_shelley -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/13.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/10.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/07.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/04.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/01.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/13.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/10.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/07.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/04.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_shelley/01.JPG" onclick="onClickLightbox(this)" alt="Concept art for personal story.">  
             <!-- digital_color -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/34.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/28.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/22.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/19.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/16.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/13.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/07.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/04.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/34.JPG" onclick="onClickLightbox(this)" alt="Color study.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/28.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/22.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/19.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/16.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/13.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/07.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_color/04.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
             <!-- digital_colorLight -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/13.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/digital_colorLight/13.JPG" onclick="onClickLightbox(this)" alt="Color study."> 
           </div>
         </div>
         <div class="w3-row-padding w3-center w3-section">
@@ -357,30 +362,30 @@
       <div class="w3-center w3-row">
         <div class="w3-row w3-gallery" style="margin-bottom:128px">
           <div class="w3-third">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/buddha_01.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Happy buddha, glossy red material.  100,010 triangles.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_03.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, gold material.  69,676 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_04.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, glass material.  100,016 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_04.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, matte pink material.  69,676 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_02.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, mirror material.  100,016 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/buddha_03.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Happy buddha, matte pink material.  100,010 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_02.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, glass material.  69,676 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/buddha_01.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Happy buddha, glossy red material.  100,010 triangles.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_03.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, gold material.  69,676 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_04.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, glass material.  100,016 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_04.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, matte pink material.  69,676 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_02.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, mirror material.  100,016 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/buddha_03.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Happy buddha, matte pink material.  100,010 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_02.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, glass material.  69,676 triangles.">
           </div>
 
           <div class="w3-third">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_01.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, glossy green material.  100,016 triangles."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_01.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, shiny aquamarine material.  69,676 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/buddha_02.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Happy buddha, glossy green material.  100,010 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_03.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, glossy red material.  100,016 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_05.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, shiny red material.  69,676 triangles.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_direct.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: Direct lighting only.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_01.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, glossy green material.  100,016 triangles."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_01.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, shiny aquamarine material.  69,676 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/buddha_02.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Happy buddha, glossy green material.  100,010 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/dragon_03.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford dragon, glossy red material.  100,016 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/raytracer_accelerated/bunny_05.jpg" onclick="onClickLightbox(this)" alt="Accelerated ray tracer.  Stanford bunny, shiny red material.  69,676 triangles.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_direct.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: Direct lighting only.">
           </div>
 
           <div class="w3-third">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_all.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: All lighting (direct, indirect, russian roulette).">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_indirect.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: Indirect lighting and russian roulette only.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_noroulette.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: Direct and indirect lighting, no russian roulette.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_fun1.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: All lighting for scene with multi-colored lights.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_fun2.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: All lighting for physically implausible scene with floating spheres, multi-colored lights.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_all.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: All lighting (direct, indirect, russian roulette).">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_indirect.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: Indirect lighting and russian roulette only.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_noroulette.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: Direct and indirect lighting, no russian roulette.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_fun1.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: All lighting for scene with multi-colored lights.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/pathtracer_uni/img_fun2.jpg" onclick="onClickLightbox(this)" alt="Unidirectional path tracer: All lighting for physically implausible scene with floating spheres, multi-colored lights.">
           </div>
         </div>
         <div class="w3-row-padding w3-center w3-section">
@@ -419,39 +424,39 @@
         <div class="w3-row w3-gallery" style="margin-bottom:128px">
           <div class="w3-third">
             <!-- sketches -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/58.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/01.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/04.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/07.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/10.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/19.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/46.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/58.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/01.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/04.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/07.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/10.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/19.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/46.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
             <!-- sketches_gesture -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches_gesture/01.JPG" onclick="onClickLightbox(this)" alt="Gesture drawing"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches_gesture/02.JPG" onclick="onClickLightbox(this)" alt="Gesture drawing"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches_gesture/01.JPG" onclick="onClickLightbox(this)" alt="Gesture drawing"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches_gesture/02.JPG" onclick="onClickLightbox(this)" alt="Gesture drawing"> 
           </div>
           <div class="w3-third">
             <!-- sketches -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/52.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/51.JPG" onclick="onClickLightbox(this)" alt="Sketches">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/02.JPG" onclick="onClickLightbox(this)" alt="Sketches">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/05.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/08.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/17.JPG" onclick="onClickLightbox(this)" alt="Sketches">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/44.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/52.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/51.JPG" onclick="onClickLightbox(this)" alt="Sketches">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/02.JPG" onclick="onClickLightbox(this)" alt="Sketches">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/05.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/08.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/17.JPG" onclick="onClickLightbox(this)" alt="Sketches">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/44.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
           </div>
           <div class="w3-third">
             <!-- sketches -->
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/06.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/09.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/53.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/54.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/55.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/56.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/42.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/13.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/57.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/41.JPG" onclick="onClickLightbox(this)" alt="Sketches">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/06.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/09.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/53.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/54.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/55.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/56.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/42.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/13.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/57.JPG" onclick="onClickLightbox(this)" alt="Sketches"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/sketches/41.JPG" onclick="onClickLightbox(this)" alt="Sketches">
           </div>
         </div>
         <div class="w3-row-padding w3-center w3-section">
@@ -476,52 +481,52 @@
       <div class="w3-center w3-row">
         <div class="w3-row w3-gallery" style="margin-bottom:128px">
           <div class="w3-third">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/12.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/09.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/11.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">   
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/07.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">   
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/06.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/10.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/05.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/04.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/02.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/08.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/03.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/01.jpg" onclick="onClickLightbox(this)" alt="Oil portrait of Marianne Hall, my high school art teacher.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral8.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 4.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral3.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 3.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/12.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/09.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/11.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">   
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/07.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">   
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/06.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/10.jpg" onclick="onClickLightbox(this)" alt="Gouache painting from life.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/05.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/04.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/02.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/08.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/03.jpg" onclick="onClickLightbox(this)" alt="Gouache study of Miyazaki film.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/painting_more2017/01.jpg" onclick="onClickLightbox(this)" alt="Oil portrait of Marianne Hall, my high school art teacher.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral8.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 4.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral3.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 3.">
           </div>
 
           <div class="w3-third">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/10.jpg" onclick="onClickLightbox(this)" alt="Portrait of my headmaster."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/01.jpg" onclick="onClickLightbox(this)" alt="Portrait of my brother.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/03.jpg" onclick="onClickLightbox(this)" alt="Portrait of my mother.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/mini2.jpg" onclick="onClickLightbox(this)" alt="Miniature self-portrait.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/06.jpg" onclick="onClickLightbox(this)" alt="Portrait of my father."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/07.jpg" onclick="onClickLightbox(this)" alt="Portrait of my father."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/09.jpg" onclick="onClickLightbox(this)" alt="Portrait of my maternal grandmother.">   
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/11.jpg" onclick="onClickLightbox(this)" alt="Self-portrait.">    
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/12.jpg" onclick="onClickLightbox(this)" alt="Portrait of my Michael Jackson.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/05.jpg" onclick="onClickLightbox(this)" alt="Portrait of my brother.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/03.jpg" onclick="onClickLightbox(this)" alt="Floating library inspired by Max Ernst's 'Paris Dream.'"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/13.jpg" onclick="onClickLightbox(this)" alt="Deconstruction of Caravaggio's 'Calling of Saint Matthew.'">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral2.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 2.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/10.jpg" onclick="onClickLightbox(this)" alt="Portrait of my headmaster."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/01.jpg" onclick="onClickLightbox(this)" alt="Portrait of my brother.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/03.jpg" onclick="onClickLightbox(this)" alt="Portrait of my mother.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/mini2.jpg" onclick="onClickLightbox(this)" alt="Miniature self-portrait.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/06.jpg" onclick="onClickLightbox(this)" alt="Portrait of my father."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/07.jpg" onclick="onClickLightbox(this)" alt="Portrait of my father."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/09.jpg" onclick="onClickLightbox(this)" alt="Portrait of my maternal grandmother.">   
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/11.jpg" onclick="onClickLightbox(this)" alt="Self-portrait.">    
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/12.jpg" onclick="onClickLightbox(this)" alt="Portrait of my Michael Jackson.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/05.jpg" onclick="onClickLightbox(this)" alt="Portrait of my brother.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/03.jpg" onclick="onClickLightbox(this)" alt="Floating library inspired by Max Ernst's 'Paris Dream.'"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/13.jpg" onclick="onClickLightbox(this)" alt="Deconstruction of Caravaggio's 'Calling of Saint Matthew.'">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral2.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 2.">  
           </div>
 
           <div class="w3-third">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/01.jpg" onclick="onClickLightbox(this)" alt="Master copy of Max Ernst's 'Paris Dream.'">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/02.jpg" onclick="onClickLightbox(this)" alt="Portrait of my paternal grandmother.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/mini1.jpg" onclick="onClickLightbox(this)" alt="Miniature portrait of a friend.  Hand for scale.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/08.jpg" onclick="onClickLightbox(this)" alt="Portrait of my maternal grandfather.">  
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/02.jpg" onclick="onClickLightbox(this)" alt="Pink and blue buildings inspired by Max Ernst's 'Paris Dream.'"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral6.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 2.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/04.jpg" onclick="onClickLightbox(this)" alt="Floral spotlights inspired by Max Ernst's 'Paris Dream.'"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/05.jpg" onclick="onClickLightbox(this)" alt="Tree and mountains inspired by Max Ernst's 'Paris Dream.'"> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/04.jpg" onclick="onClickLightbox(this)" alt="Self-portrait."> 
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral4.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 4.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral5.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 1.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral1.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 1.">
-            <img class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral7.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 3.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/01.jpg" onclick="onClickLightbox(this)" alt="Master copy of Max Ernst's 'Paris Dream.'">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/02.jpg" onclick="onClickLightbox(this)" alt="Portrait of my paternal grandmother.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/mini1.jpg" onclick="onClickLightbox(this)" alt="Miniature portrait of a friend.  Hand for scale.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/08.jpg" onclick="onClickLightbox(this)" alt="Portrait of my maternal grandfather.">  
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/02.jpg" onclick="onClickLightbox(this)" alt="Pink and blue buildings inspired by Max Ernst's 'Paris Dream.'"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral6.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 2.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/04.jpg" onclick="onClickLightbox(this)" alt="Floral spotlights inspired by Max Ernst's 'Paris Dream.'"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_abstract/05.jpg" onclick="onClickLightbox(this)" alt="Tree and mountains inspired by Max Ernst's 'Paris Dream.'"> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings/04.jpg" onclick="onClickLightbox(this)" alt="Self-portrait."> 
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral4.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 4.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral5.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 1.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral1.jpg" onclick="onClickLightbox(this)" alt="Flowers in the light, 1.">
+            <img loading="lazy" decoding="async" class= "w3-gallery-image w3-image w3-hover-opacity w3-padding-tiny" src="files/projects/paintings_oil/floral7.jpg" onclick="onClickLightbox(this)" alt="Flowers in the dark, 3.">
           </div>
         </div>
         <div class="w3-row-padding w3-center w3-section">
@@ -552,7 +557,7 @@
   <div class="w3-content w3-container w3-padding-64" id="resume">
     <h3 class="w3-center">RESUME</h3>
     <div class="w3-row-padding w3-center w3-section">
-    <a class="w3-btn w3-light-grey w3-padding-xlarge" style="margin-top:64px" href="files/pdf/WendyChenResume2025Dec.pdf" download>PDF VERSION</a>
+    <a class="w3-btn w3-light-grey w3-padding-xlarge" style="margin-top:64px" href="files/pdf/WendyChenResumeAugust2026.pdf" download>PDF VERSION</a>
     </div>
 
     <div class="w3-row w3-padding-32 w3-section">
@@ -575,7 +580,7 @@
         <div class="w3-row w3-padding-medium resume-border w3-margin w3-card-2">
             <h2 class="w3-text-grey w3-padding-16"><img style="width:65px" src="files/icons/piggy_sunglasses_pink.svg"></img>&nbsp Contact</h2>
             <div class="w3-container">
-              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-pink"></i>Senior Software Engineer & Technical Artist</p>
+              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-pink"></i>Senior Software Engineer & Technical Director</p>
               <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-pink"></i>wenchenme@gmail.com</p>
               <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-pink"></i><a class="w3-hover-pink" href="https://www.linkedin.com/in/wendywentingchen/">LinkedIn</a></p>
               <p><i class="fa fa-github-alt fa-fw w3-margin-right w3-large w3-text-pink"></i><a class="w3-hover-pink" href="https://github.com/vverovvero">vverovvero</a></p>
@@ -609,19 +614,32 @@
           <h2 class="w3-text-grey w3-padding-16"><img style="width:70px" src="files/icons/piggy_mickey_pink.svg"></img>&nbsp Experience</h2>
           <div class="w3-container">
             <h5 class="w3-opacity"><b>Pixar</b></h5>
-            <h6 class="w3-text-pink"><i class="fa fa-user-o fa-fw w3-margin-right"></i>Senior Software Engineer
-            <br><i class="fa fa-fw fa-calendar w3-margin-right"></i>July 2017 - <span class="w3-tag w3-pink w3-round">Current</span></h6>
+            <h6 class="w3-text-pink"><i class="fa fa-user-o fa-fw w3-margin-right"></i>Global Technology Technical Director
+            <br><i class="fa fa-fw fa-calendar w3-margin-right"></i>August 2026 - <span class="w3-tag w3-pink w3-round">Current</span></h6>
             <p>
-            C++/Python development on in-house USD shading application Flow.  Material editing workflows in Hydra for new lighting tool Luna in Presto.  Support shading pipeline and character/sets workflows in Flow, Mari, and Katana.
+            <ul>
+              <li>Currently working on 'Incredibles 3'
+            </ul>           
             </p>
             <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Pixar</b></h5>
+            <h6 class="w3-text-pink"><i class="fa fa-user-o fa-fw w3-margin-right"></i>Senior Software Engineer
+            <br><i class="fa fa-fw fa-calendar w3-margin-right"></i>July 2017 - July 2026</h6>
+            <p>
+            <ul>
+              <li>Led design and development of Leonardo, a procedural shading system built on USD/Hydra with Houdini frontend that enables artists 
+              to author procedural shading independently of generated input signals.</li>
+              <li>Led design and development of material editing workflows in Hydra for new in-house lighting tool Luna in Presto.</li>
+              <li>Developed shading workflows for in-house tool Flow. Support shading pipeline and character/sets workflows in Flow, Mari, and Katana.</li>
+            </ul>           
+            </p>
+            <hr>
             <h6 class="w3-text-pink"><i class="fa fa-user-o fa-fw w3-margin-right"></i>Character Shading Technical Director
             <br><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2022 - June 2023</h6>
             <p>
-            Character shading on variety of characters for 'Inside Out 2', including recreating Anger and Mom's looks.  Shading work done in Houdini, Mari, Flow, Katana.
+            <ul>
+              <li>Character shading on variety of characters for 'Inside Out 2', including recreating Anger and Mom's looks.  
+                Shading work done in Houdini, Mari, Flow, Katana.</li>
+            </ul>
             </p>
             <hr>
           </div>
@@ -630,7 +648,10 @@
             <h6 class="w3-text-pink"><i class="fa fa-user-o fa-fw w3-margin-right"></i>Production Engineering Intern
             <br><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016 - August 2016</h6>
             <p>
-            Developed features for production tools, including web applications, proprietary tool packages, and Maya plug-in for geometry reduction.
+            <ul>
+              <li>Developed features for production tools, including web applications, proprietary tool packages, and Maya plug-in for geometry reduction.
+              </li>
+            </ul>
             </p>
             <hr>
           </div>
@@ -639,7 +660,10 @@
             <h6 class="w3-text-pink"><i class="fa fa-user-o fa-fw w3-margin-right"></i>Art & Production Intern
             <br><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2015 - August 2015</h6>
             <p>
-            Created short film “Brew” with team. Learned CG production pipeline, Maya and Disney’s proprietary tools. 
+            <ul>
+              <li>Created short film “Brew” with team. Learned CG production pipeline, Maya and Disney’s proprietary tools. 
+              </li>
+            </ul>
             </p>
           </div>
         </div>
